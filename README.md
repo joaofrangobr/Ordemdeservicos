@@ -1,31 +1,32 @@
 # Ordem de Serviços
 
-Sistema em desenvolvimento para gerenciamento de ordens de serviço entre clientes, prestadores e imobiliárias.
+Sistema web para gerenciamento de ordens de serviço entre clientes, prestadores e imobiliárias.
 
-## Tecnologias
+## Objetivo
 
-- ASP.NET Core 10
-- SQL Server
-- Entity Framework Core (em desenvolvimento)
-- Swagger
-- Git/GitHub
+Este projeto foi desenvolvido com foco em aprendizado e portfólio, simulando um sistema utilizado por imobiliárias para solicitar serviços, acompanhar chamados e gerenciar prestadores.
 
-## Funcionalidades planejadas
+## Funcionalidades
 
 - Cadastro de usuários
 - Login
 - Cadastro de chamados
 - Upload de imagens
-- Histórico de chamados
-- Acompanhamento pelo cliente
+- Acompanhamento de status
+- Histórico de alterações
+- Painel do cliente
 - Painel do prestador
 - Painel da imobiliária
 
-## Estrutura
+## Tecnologias
 
-backend/
-database/
-frontend/
+- C#
+- ASP.NET Core
+- SQL Server
+- Entity Framework Core
+- Swagger
+- Git
+- GitHub
 
 ## Status
 
