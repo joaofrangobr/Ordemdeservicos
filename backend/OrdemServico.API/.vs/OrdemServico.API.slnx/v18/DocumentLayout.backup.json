@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A988E40-E4CB-4B03-AEC9-CEC7501EFCE3}|OrdemServico.API\\OrdemServico.API.csproj|c:\\users\\joaor\\onedrive\\documentos\\github\\ordemdeservicos\\backend\\ordemservico.api\\ordemservico.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A988E40-E4CB-4B03-AEC9-CEC7501EFCE3}|OrdemServico.API\\OrdemServico.API.csproj|solutionrelative:ordemservico.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{706DE1F7-B000-A1DE-4D09-A137FA20F5D6}|OrdemServico.API\\OrdemServico.API.csproj|c:\\users\\joaor\\onedrive\\documentos\\github\\ordemdeservicos\\backend\\ordemservico.api\\ordemservico.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{706DE1F7-B000-A1DE-4D09-A137FA20F5D6}|OrdemServico.API\\OrdemServico.API.csproj|solutionrelative:ordemservico.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A988E40-E4CB-4B03-AEC9-CEC7501EFCE3}|OrdemServico.API\\OrdemServico.API.csproj|c:\\users\\joaor\\onedrive\\documentos\\github\\ordemdeservicos\\backend\\ordemservico.api\\ordemservico.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A988E40-E4CB-4B03-AEC9-CEC7501EFCE3}|OrdemServico.API\\OrdemServico.API.csproj|solutionrelative:ordemservico.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{706DE1F7-B000-A1DE-4D09-A137FA20F5D6}|OrdemServico.API\\OrdemServico.API.csproj|c:\\users\\joaor\\onedrive\\documentos\\github\\ordemdeservicos\\backend\\ordemservico.api\\ordemservico.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{706DE1F7-B000-A1DE-4D09-A137FA20F5D6}|OrdemServico.API\\OrdemServico.API.csproj|solutionrelative:ordemservico.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\OrdemServico.API\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "OrdemServico.API\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\OrdemServico.API\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "OrdemServico.API\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\OrdemServico.API\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "OrdemServico.API\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\OrdemServico.API\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "OrdemServico.API\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T23:39:14.163Z",
+              "WhenOpened": "2026-08-04T00:38:56.972Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\OrdemServico.API\\Program.cs",
-              "RelativeDocumentMoniker": "OrdemServico.API\\Program.cs",
-              "ToolTip": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\OrdemServico.API\\Program.cs",
-              "RelativeToolTip": "OrdemServico.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\OrdemServico.API\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "OrdemServico.API\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\OrdemServico.API\\Models\\Usuario.cs",
+              "RelativeToolTip": "OrdemServico.API\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T23:38:13.027Z",
+              "WhenOpened": "2026-08-04T00:15:46.542Z",
               "EditorCaption": ""
             }
           ]
