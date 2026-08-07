@@ -33,3 +33,6 @@ C:\Users\joaor\OneDrive\Documentos\GitHub\Ordemdeservicos\backend\OrdemServico.A
 C:\Users\joaor\OneDrive\Documentos\GitHub\Ordemdeservicos\backend\OrdemServico.API\OrdemServico.API\obj\Debug\net10.0\OrdemServico.API.pdb
 C:\Users\joaor\OneDrive\Documentos\GitHub\Ordemdeservicos\backend\OrdemServico.API\OrdemServico.API\obj\Debug\net10.0\OrdemServico.API.genruntimeconfig.cache
 C:\Users\joaor\OneDrive\Documentos\GitHub\Ordemdeservicos\backend\OrdemServico.API\OrdemServico.API\obj\Debug\net10.0\ref\OrdemServico.API.dll
+C:\Users\joaor\OneDrive\Documentos\GitHub\Ordemdeservicos\backend\OrdemServico.API\OrdemServico.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\joaor\OneDrive\Documentos\GitHub\Ordemdeservicos\backend\OrdemServico.API\OrdemServico.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\joaor\OneDrive\Documentos\GitHub\Ordemdeservicos\backend\OrdemServico.API\OrdemServico.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
