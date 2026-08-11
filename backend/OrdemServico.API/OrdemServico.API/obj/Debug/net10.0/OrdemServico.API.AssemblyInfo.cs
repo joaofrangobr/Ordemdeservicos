@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrdemServico.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+132f7ebaa9303a67daf7d9e04b35982df67e61fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a9ce3332ed2a264d762168761aa35d6b1e28720")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrdemServico.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrdemServico.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

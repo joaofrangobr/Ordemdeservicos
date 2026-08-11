@@ -16,9 +16,44 @@
         }
 
         [HttpGet]
-        public ActionResult<List<Usuario>> Get()
+        [HttpGet]
+        public ActionResult<List<UsuarioResponse>> Get()
         {
-           return _context.Usuarios.ToList();
+            List<Usuario> usuarios = _context.Usuarios.ToList();
+
+            var respostas = usuarios.Select(usuario =>
+            {
+                UsuarioResponse resposta = new UsuarioResponse();
+
+                resposta.Id = usuario.Id;
+                resposta.Nome = usuario.Nome;
+                resposta.Email = usuario.Email;
+                resposta.Telefone = usuario.Telefone;
+                resposta.Tipo = usuario.Tipo;
+
+                return resposta;
+            }).ToList();
+
+            return respostas;
+        }
+        [HttpGet("{id}")]
+        public ActionResult<UsuarioResponse> Get(int id)
+        {
+            Usuario usuario = _context.Usuarios.FirstOrDefault(usuario => usuario.Id == id);
+
+            if (usuario == null)
+            {
+                return NotFound();
+            }
+            UsuarioResponse resposta = new UsuarioResponse();
+
+            resposta.Id = usuario.Id;
+            resposta.Nome = usuario.Nome;
+            resposta.Email = usuario.Email;
+            resposta.Telefone = usuario.Telefone;
+            resposta.Tipo = usuario.Tipo;
+
+            return resposta;
         }
     }
 }
