@@ -15,8 +15,7 @@
             _context = context;
         }
 
-        [HttpGet]
-        [HttpGet]
+        [HttpGet] //seleciona todos os usuarios
         public ActionResult<List<UsuarioResponse>> Get()
         {
             List<Usuario> usuarios = _context.Usuarios.ToList();
@@ -36,7 +35,7 @@
 
             return respostas;
         }
-        [HttpGet("{id}")]
+        [HttpGet("{id}")] //seleciona usuarios por id
         public ActionResult<UsuarioResponse> Get(int id)
         {
             Usuario usuario = _context.Usuarios.FirstOrDefault(usuario => usuario.Id == id);
@@ -56,7 +55,7 @@
             return resposta;
         }
 
-        [HttpPost]
+        [HttpPost] //Adiciona usuarios
         public ActionResult<UsuarioResponse> Post(Usuario usuario)
         {
             _context.Usuarios.Add(usuario);
@@ -73,7 +72,7 @@
 
             return resposta;
         }
-        [HttpPut("{id}")]
+        [HttpPut("{id}")] //Altera usuarios
         public ActionResult<UsuarioResponse> Put(int id, Usuario usuario)
         {
             Usuario usuarioExistente = _context.Usuarios.FirstOrDefault(usuario => usuario.Id == id);
@@ -100,6 +99,22 @@
             resposta.Tipo = usuarioExistente.Tipo;
 
             return resposta;
+        }
+
+        [HttpDelete("{id}")] //Deleta usuarios
+        public ActionResult Delete(int id)
+        {
+            Usuario usuarioExistente = _context.Usuarios.FirstOrDefault(usuario => usuario.Id == id);
+
+            if (usuarioExistente == null)
+            {
+                return NotFound();
+            }
+
+            _context.Usuarios.Remove(usuarioExistente);
+            _context.SaveChanges();
+
+            return NoContent();
         }
     }
 }
