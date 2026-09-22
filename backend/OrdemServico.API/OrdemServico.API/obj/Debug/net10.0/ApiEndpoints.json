@@ -101,5 +101,21 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "OrdemServico.API.Controllers.UsuariosController",
+    "Method": "Delete",
+    "RelativePath": "Usuarios/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
