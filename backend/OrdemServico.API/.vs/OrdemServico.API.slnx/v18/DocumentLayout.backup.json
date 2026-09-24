@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{706DE1F7-B000-A1DE-4D09-A137FA20F5D6}|OrdemServico.API\\OrdemServico.API.csproj|c:\\users\\joaor\\onedrive\\documentos\\github\\ordemdeservicos\\backend\\ordemservico.api\\ordemservico.api\\controllers\\chamadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{706DE1F7-B000-A1DE-4D09-A137FA20F5D6}|OrdemServico.API\\OrdemServico.API.csproj|solutionrelative:ordemservico.api\\controllers\\chamadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{706DE1F7-B000-A1DE-4D09-A137FA20F5D6}|OrdemServico.API\\OrdemServico.API.csproj|c:\\users\\joaor\\onedrive\\documentos\\github\\ordemdeservicos\\backend\\ordemservico.api\\ordemservico.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{706DE1F7-B000-A1DE-4D09-A137FA20F5D6}|OrdemServico.API\\OrdemServico.API.csproj|solutionrelative:ordemservico.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{706DE1F7-B000-A1DE-4D09-A137FA20F5D6}|OrdemServico.API\\OrdemServico.API.csproj|c:\\users\\joaor\\onedrive\\documentos\\github\\ordemdeservicos\\backend\\ordemservico.api\\ordemservico.api\\models\\usuarioresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{706DE1F7-B000-A1DE-4D09-A137FA20F5D6}|OrdemServico.API\\OrdemServico.API.csproj|solutionrelative:ordemservico.api\\models\\usuarioresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{706DE1F7-B000-A1DE-4D09-A137FA20F5D6}|OrdemServico.API\\OrdemServico.API.csproj|c:\\users\\joaor\\onedrive\\documentos\\github\\ordemdeservicos\\backend\\ordemservico.api\\ordemservico.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{706DE1F7-B000-A1DE-4D09-A137FA20F5D6}|OrdemServico.API\\OrdemServico.API.csproj|solutionrelative:ordemservico.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +18,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChamadosController.cs",
+              "DocumentMoniker": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\OrdemServico.API\\Controllers\\ChamadosController.cs",
+              "RelativeDocumentMoniker": "OrdemServico.API\\Controllers\\ChamadosController.cs",
+              "ToolTip": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\OrdemServico.API\\Controllers\\ChamadosController.cs*",
+              "RelativeToolTip": "OrdemServico.API\\Controllers\\ChamadosController.cs*",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswCsAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T17:29:27.297Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "c07ceb9f-f021-4553-a69d-a3b533e5ee13",
+        "Display": 2,
+        "X": 745,
+        "Y": 173,
+        "Width": 997,
+        "Height": 522,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsuarioResponse.cs",
-              "DocumentMoniker": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\OrdemServico.API\\Models\\UsuarioResponse.cs",
-              "RelativeDocumentMoniker": "OrdemServico.API\\Models\\UsuarioResponse.cs",
-              "ToolTip": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\OrdemServico.API\\Models\\UsuarioResponse.cs",
-              "RelativeToolTip": "OrdemServico.API\\Models\\UsuarioResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:34:07.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\OrdemServico.API\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "OrdemServico.API\\Controllers\\UsuariosController.cs",
               "ToolTip": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\OrdemServico.API\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "OrdemServico.API\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAkwBEAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T00:10:41.127Z",
+              "WhenOpened": "2026-09-24T17:29:29.335Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\OrdemServico.API\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "OrdemServico.API\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\joaor\\OneDrive\\Documentos\\GitHub\\Ordemdeservicos\\backend\\OrdemServico.API\\OrdemServico.API\\Models\\Usuario.cs",
-              "RelativeToolTip": "OrdemServico.API\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:33:06.751Z"
             }
           ]
         }

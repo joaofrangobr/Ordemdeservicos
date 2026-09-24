@@ -1,5 +1,108 @@
 [
   {
+    "ContainingType": "OrdemServico.API.Controllers.ChamadosController",
+    "Method": "Get",
+    "RelativePath": "Chamados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OrdemServico.API.Models.Chamado, OrdemServico.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrdemServico.API.Controllers.ChamadosController",
+    "Method": "Post",
+    "RelativePath": "Chamados",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chamado",
+        "Type": "OrdemServico.API.Models.Chamado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrdemServico.API.Models.Chamado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrdemServico.API.Controllers.ChamadosController",
+    "Method": "Get",
+    "RelativePath": "Chamados/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrdemServico.API.Models.Chamado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrdemServico.API.Controllers.ChamadosController",
+    "Method": "Post",
+    "RelativePath": "Chamados/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "chamado",
+        "Type": "OrdemServico.API.Models.Chamado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrdemServico.API.Models.Chamado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "OrdemServico.API.Controllers.UsuariosController",
     "Method": "Get",
     "RelativePath": "Usuarios",
